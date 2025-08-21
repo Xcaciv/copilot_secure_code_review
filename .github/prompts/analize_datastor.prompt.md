@@ -1,10 +1,10 @@
 ---
 mode: "agent"
 tools: ['codebase', 'extensions', 'search', 'searchResults', 'usages', 'context7']
-description: "Generate a security report"
+description: "Generate a data and output security report"
 ---
 
-## DATASTORES & TEMPLATING ANALYSIS
+## 4. DATASTORES & TEMPLATING ANALYSIS
 perform security analysis of the codebase
 
 ### Datastores
@@ -30,5 +30,21 @@ perform security analysis of the codebase
 - Review how user data is incorporated into templates
 - Analyze output encoding and XSS prevention
 - Evaluate template inclusion security
+
+## Deliverable Format
+Markdown report including:
+1. Executive summary
+2. Detailed findings per section
+3. Code references (file paths and line numbers)
+4. Risk severity ratings
+5. Remediation recommendations
+6. Technical debt implications
+7. Security improvement roadmap
+
+## Reference standards:
+- OWASP FIASSE with SSEM attributes
+- OWASP Secure Coding Practices
+- Cloud Native Security Best Practices
+- Framework-specific security guidelines
 
 Expected output format: Markdown report with clear sections, code references (file and line), and actionable recommendations.

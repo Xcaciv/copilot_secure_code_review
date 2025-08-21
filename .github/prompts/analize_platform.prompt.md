@@ -1,20 +1,13 @@
 ---
 mode: "agent"
 tools: ['codebase', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'search', 'searchResults', 'testFailure', 'usages']
-description: "Generate routes summary"
+description: "Analyze technical security"
 ---
 
 # Language & Framework Security Analysis Request
 
 ## Objective
-Perform a comprehensive security analysis of the codebase focusing on language, framework, architecture, and deployment aspects.
-
-## Required Input
-1. Source code repository or files
-2. Industry-specific compliance requirements (e.g., HIPAA, PCI-DSS, GDPR)
-3. Applicable security standards (e.g., OWASP Top 10, CWE)
-4. Current deployment environment details
-5. Build pipeline configuration files
+Perform a comprehensive security analysis of the codebase focusing on technical aspects: language, framework, architecture, and deployment.
 
 ## Analysis Scope
 
@@ -57,9 +50,10 @@ Markdown report including:
 6. Technical debt implications
 7. Security improvement roadmap
 
-Reference standards:
+## Reference standards:
 - OWASP FIASSE with SSEM attributes
 - OWASP Secure Coding Practices
-- SANS CWE Top 25
 - Cloud Native Security Best Practices
 - Framework-specific security guidelines
+
+Expected output format: Markdown report with clear sections, code references (file and line), and actionable recommendations.
