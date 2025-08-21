@@ -1,3 +1,9 @@
+---
+mode: "agent"
+tools: ['codebase', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'search', 'searchResults', 'testFailure', 'usages']
+description: "Generate routes summary"
+---
+
 # Language & Framework Security Analysis Request
 
 ## Objective

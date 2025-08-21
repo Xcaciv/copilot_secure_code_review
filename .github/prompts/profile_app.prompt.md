@@ -1,7 +1,7 @@
 ---
 mode: "agent"
-tools: ['codebase', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'search', 'searchResults', 'testFailure', 'usages']
-description: "Generate a copilot-instructions"
+tools: ['codebase', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'search', 'searchResults', 'testFailure', 'usages', 'context7', 'sequentialthinking', 'notion', 'memory', 'Snyk Security Scanner']
+description: "Generate a security profile"
 ---
 
 # SECURITY-FOCUSED APPLICATION ANALYSIS PROMPT

@@ -38,4 +38,4 @@ Perform a comprehensive security and business value assessment of the provided s
 
 Please provide the source code to analyze and specify any industry-specific compliance requirements or security standards that must be considered.
 
-Expected output format: Markdown report with clear sections, code refrences (file and line), and actionable recommendations.
+Expected output format: Markdown report with clear sections, code references (file and line), and actionable recommendations.
