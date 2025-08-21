@@ -24,3 +24,21 @@ description: "Generate risk summary"
 - Provide prioritized security improvement recommendations
 - Suggest specific mitigations for identified issues
 - Recommend additional security controls where appropriate
+
+## Deliverable Format
+Markdown report including:
+1. Executive summary
+2. Detailed findings per section
+3. Code references (file paths and line numbers)
+4. Risk severity ratings
+5. Remediation recommendations
+6. Technical debt implications
+7. Security improvement roadmap
+
+## Reference standards:
+- OWASP FIASSE with SSEM attributes
+- OWASP Secure Coding Practices
+- Cloud Native Security Best Practices
+- Framework-specific security guidelines
+
+Expected output format: Markdown report with clear sections, code references (file and line), and actionable recommendations.
