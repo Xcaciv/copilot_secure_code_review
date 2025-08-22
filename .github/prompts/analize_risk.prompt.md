@@ -30,10 +30,7 @@ Markdown report including:
 1. Executive summary
 2. Detailed findings per section
 3. Code references (file paths and line numbers)
-4. Risk severity ratings
-5. Remediation recommendations
-6. Technical debt implications
-7. Security improvement roadmap
+4. Remediation recommendations
 
 ## Reference standards:
 - OWASP FIASSE with SSEM attributes
