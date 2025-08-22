@@ -38,14 +38,6 @@ By defining the persona and rules in this file, you ensure that Copilot's sugges
 
 Slash commands are shortcuts you can use in the Copilot Chat window to perform common tasks. They are powerful tools for interacting with your codebase.
 
-Here are some useful commands:
-
-*   `@workspace /explain`: Ask Copilot to explain the entire workspace or a specific part of it. This is useful for getting a high-level overview of the code in `code_under_review`.
-*   `@workspace /tests`: Ask Copilot to generate unit tests for the code in your workspace.
-*   `/fix`: Select a piece of code with a potential bug or vulnerability and use this command to ask Copilot for a fix.
-*   `/doc`: Generate documentation for a selected function or class.
-*   `/explain`: Explain a selected piece of code in detail.
-
 **Example Prompt:**
 
 After adding your code, you can open the Copilot Chat and ask:
